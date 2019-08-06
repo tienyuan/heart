@@ -77,16 +77,6 @@ class App extends Component {
   render() {
     const { user } = this.state
     return (
-<<<<<<< HEAD
-      <BrowserRouter>
-        <Switch>
-          <Route exact={true} path='/participants/:id/' component={ParticipantProfile} />
-          <Route exact={true} path='/form' component={IntakeForm} />
-          <Route exact={true} path='/import/' component={ImportFromFile} />
-        </Switch>
-      </BrowserRouter>
-    );
-=======
       <React.Fragment>
         <UserProvider
           value={{
@@ -129,7 +119,6 @@ class App extends Component {
         </UserProvider>
       </React.Fragment>
     )
->>>>>>> upstream/master
   }
 }
 
